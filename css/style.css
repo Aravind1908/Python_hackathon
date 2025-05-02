@@ -419,7 +419,6 @@
 }
 /*** Carousel Hero Header End ***/
 
-
 /* =============================================================================================================== */
 
 /* Event Schedule start */
@@ -504,9 +503,9 @@
 
 .table tbody tr:hover td {
   background-color: #d3d3d3; /* Light gray background on hover */
-  color: red; /* Blue text on hover */
-  transition: all 0.5s ease-in-out;
-  transform: scale(1.09); /* Slightly enlarge the text */
+  color: #0047ab; /* Blue text on hover */
+  transition: all 0.3s ease-in-out;
+  transform: scale(1.02); /* Slightly enlarge the text */
 }
 /* Event Schedule End */
 
@@ -514,76 +513,32 @@
 
 /* rules page */
 .rules-item {
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .rules-item:hover {
-    transform: translateY(-20px);
+  transform: translateY(-20px);
 }
 
 /* Text hover effects */
 .rules-item h4,
 .rules-item h5,
 .rules-item h6 {
-    transition: color 0.3s ease;
+  transition: color 0.3s ease;
 }
-
 
 /* List item hover effect */
 .rules-item ul li {
-    transition: color 0.3s ease, transform 0.2s ease;
+  transition: color 0.3s ease, transform 0.2s ease;
 }
 
 .rules-item ul li:hover {
-    color: black; /* Change to an orange shade */
-    transform: translateX(5px); /* Slight movement effect */
+  color: black; /* Change to an orange shade */
+  transform: translateX(5px); /* Slight movement effect */
 }
 
 /* rules page end */
-
 /* =============================================================================================================== */
-
-/*** core team Start ***/
-.contact .office .office-item {
-  text-align: center;
-  border-radius: 10px;
-  box-shadow: 0 0 45px rgba(0, 0, 0, 0.2);
-  background: var(--bs-light);
-  transition: 0.5s;
-}
-
-.contact .office .office-item:hover {
-  box-shadow: 20px 20px 20px rgba(0, 58, 102, 0.3);
-}
-
-.contact .office .office-item .office-img {
-  position: relative;
-  overflow: hidden;
-  border-radius: 10px;
-}
-
-.contact .office .office-item .office-img img {
-  transition: 0.5s;
-}
-
-.contact .office .office-item:hover .office-img img {
-  transform: scale(1.3);
-}
-
-.contact .office .office-item .office-content a.text-secondary,
-.contact .office .office-item .office-content a.text-muted {
-  transition: 0.5s;
-}
-
-.contact .office .office-item .office-content a.text-muted:hover {
-  color: var(--bs-secondary) !important;
-}
-
-.contact .office .office-item .office-content a.text-secondary:hover {
-  color: var(--bs-primary) !important;
-}
-
-/*** Core team End ***/
 
 /*** Footer Start ***/
 .footer {
@@ -614,5 +569,3 @@
   background: var(--bs-secondary) !important;
 }
 /*** copyright end ***/
-
- 
